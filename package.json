@@ -1,0 +1,26 @@
+{
+    "name": "hm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "dependencies": {
+        "babel-preset-env": "^1.7.0",
+        "gulp": "^4.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "gulp dev",
+        "build": "gulp build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhfei009/hm.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zhfei009/hm/issues"
+    },
+    "homepage": "https://github.com/zhfei009/hm#readme"
+}
