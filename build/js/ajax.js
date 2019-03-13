@@ -1,0 +1,1 @@
+var $={ajax:function(option){var async=void 0===option.async||fasle,xhr;xhr=window.XMLHttpRequest?new XMLHttpRequest:new ActiveXObject,xhr.open(option.type||"get",option.url,async),xhr.onreadystatechange=function(){4==xhr.readyState&&200==xhr.status?option.success&&option.success(eval("("+this.responseText+")")):option.error&&option.error(this.responseText)},xhr.send()}};
